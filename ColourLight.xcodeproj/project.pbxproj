@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		044B66C217EC81C100569C61 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 044B66C117EC81C100569C61 /* Foundation.framework */; };
+		044B66C417EC81C100569C61 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 044B66C317EC81C100569C61 /* CoreGraphics.framework */; };
+		044B66C617EC81C100569C61 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 044B66C517EC81C100569C61 /* UIKit.framework */; };
+		044B66CC17EC81C100569C61 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 044B66CA17EC81C100569C61 /* InfoPlist.strings */; };
+		044B66CE17EC81C100569C61 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 044B66CD17EC81C100569C61 /* main.m */; };
+		044B66D217EC81C100569C61 /* XAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 044B66D117EC81C100569C61 /* XAppDelegate.m */; };
+		044B66D517EC81C100569C61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 044B66D317EC81C100569C61 /* Main.storyboard */; };
+		044B66D817EC81C100569C61 /* XViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 044B66D717EC81C100569C61 /* XViewController.m */; };
+		044B66DA17EC81C100569C61 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 044B66D917EC81C100569C61 /* Images.xcassets */; };
+		044B66E117EC81C100569C61 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 044B66E017EC81C100569C61 /* XCTest.framework */; };
+		044B66E217EC81C100569C61 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 044B66C117EC81C100569C61 /* Foundation.framework */; };
+		044B66E317EC81C100569C61 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 044B66C517EC81C100569C61 /* UIKit.framework */; };
+		044B66EB17EC81C100569C61 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 044B66E917EC81C100569C61 /* InfoPlist.strings */; };
+		044B66ED17EC81C100569C61 /* ColourLightTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 044B66EC17EC81C100569C61 /* ColourLightTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		044B66E417EC81C100569C61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 044B66B617EC81C100569C61 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 044B66BD17EC81C100569C61;
+			remoteInfo = ColourLight;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		044B66BE17EC81C100569C61 /* ColourLight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColourLight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		044B66C117EC81C100569C61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		044B66C317EC81C100569C61 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		044B66C517EC81C100569C61 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		044B66C917EC81C100569C61 /* ColourLight-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ColourLight-Info.plist"; sourceTree = "<group>"; };
+		044B66CB17EC81C100569C61 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		044B66CD17EC81C100569C61 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		044B66CF17EC81C100569C61 /* ColourLight-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ColourLight-Prefix.pch"; sourceTree = "<group>"; };
+		044B66D017EC81C100569C61 /* XAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XAppDelegate.h; sourceTree = "<group>"; };
+		044B66D117EC81C100569C61 /* XAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XAppDelegate.m; sourceTree = "<group>"; };
+		044B66D417EC81C100569C61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		044B66D617EC81C100569C61 /* XViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XViewController.h; sourceTree = "<group>"; };
+		044B66D717EC81C100569C61 /* XViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XViewController.m; sourceTree = "<group>"; };
+		044B66D917EC81C100569C61 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		044B66DF17EC81C100569C61 /* ColourLightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColourLightTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		044B66E017EC81C100569C61 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		044B66E817EC81C100569C61 /* ColourLightTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ColourLightTests-Info.plist"; sourceTree = "<group>"; };
+		044B66EA17EC81C100569C61 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		044B66EC17EC81C100569C61 /* ColourLightTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColourLightTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		044B66BB17EC81C100569C61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044B66C417EC81C100569C61 /* CoreGraphics.framework in Frameworks */,
+				044B66C617EC81C100569C61 /* UIKit.framework in Frameworks */,
+				044B66C217EC81C100569C61 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044B66DC17EC81C100569C61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044B66E117EC81C100569C61 /* XCTest.framework in Frameworks */,
+				044B66E317EC81C100569C61 /* UIKit.framework in Frameworks */,
+				044B66E217EC81C100569C61 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		044B66B517EC81C100569C61 = {
+			isa = PBXGroup;
+			children = (
+				044B66C717EC81C100569C61 /* ColourLight */,
+				044B66E617EC81C100569C61 /* ColourLightTests */,
+				044B66C017EC81C100569C61 /* Frameworks */,
+				044B66BF17EC81C100569C61 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		044B66BF17EC81C100569C61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				044B66BE17EC81C100569C61 /* ColourLight.app */,
+				044B66DF17EC81C100569C61 /* ColourLightTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		044B66C017EC81C100569C61 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				044B66C117EC81C100569C61 /* Foundation.framework */,
+				044B66C317EC81C100569C61 /* CoreGraphics.framework */,
+				044B66C517EC81C100569C61 /* UIKit.framework */,
+				044B66E017EC81C100569C61 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		044B66C717EC81C100569C61 /* ColourLight */ = {
+			isa = PBXGroup;
+			children = (
+				044B66D017EC81C100569C61 /* XAppDelegate.h */,
+				044B66D117EC81C100569C61 /* XAppDelegate.m */,
+				044B66D317EC81C100569C61 /* Main.storyboard */,
+				044B66D617EC81C100569C61 /* XViewController.h */,
+				044B66D717EC81C100569C61 /* XViewController.m */,
+				044B66D917EC81C100569C61 /* Images.xcassets */,
+				044B66C817EC81C100569C61 /* Supporting Files */,
+			);
+			path = ColourLight;
+			sourceTree = "<group>";
+		};
+		044B66C817EC81C100569C61 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				044B66C917EC81C100569C61 /* ColourLight-Info.plist */,
+				044B66CA17EC81C100569C61 /* InfoPlist.strings */,
+				044B66CD17EC81C100569C61 /* main.m */,
+				044B66CF17EC81C100569C61 /* ColourLight-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		044B66E617EC81C100569C61 /* ColourLightTests */ = {
+			isa = PBXGroup;
+			children = (
+				044B66EC17EC81C100569C61 /* ColourLightTests.m */,
+				044B66E717EC81C100569C61 /* Supporting Files */,
+			);
+			path = ColourLightTests;
+			sourceTree = "<group>";
+		};
+		044B66E717EC81C100569C61 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				044B66E817EC81C100569C61 /* ColourLightTests-Info.plist */,
+				044B66E917EC81C100569C61 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		044B66BD17EC81C100569C61 /* ColourLight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 044B66F017EC81C100569C61 /* Build configuration list for PBXNativeTarget "ColourLight" */;
+			buildPhases = (
+				044B66BA17EC81C100569C61 /* Sources */,
+				044B66BB17EC81C100569C61 /* Frameworks */,
+				044B66BC17EC81C100569C61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ColourLight;
+			productName = ColourLight;
+			productReference = 044B66BE17EC81C100569C61 /* ColourLight.app */;
+			productType = "com.apple.product-type.application";
+		};
+		044B66DE17EC81C100569C61 /* ColourLightTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 044B66F317EC81C100569C61 /* Build configuration list for PBXNativeTarget "ColourLightTests" */;
+			buildPhases = (
+				044B66DB17EC81C100569C61 /* Sources */,
+				044B66DC17EC81C100569C61 /* Frameworks */,
+				044B66DD17EC81C100569C61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				044B66E517EC81C100569C61 /* PBXTargetDependency */,
+			);
+			name = ColourLightTests;
+			productName = ColourLightTests;
+			productReference = 044B66DF17EC81C100569C61 /* ColourLightTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		044B66B617EC81C100569C61 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = X;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = landyu;
+				TargetAttributes = {
+					044B66DE17EC81C100569C61 = {
+						TestTargetID = 044B66BD17EC81C100569C61;
+					};
+				};
+			};
+			buildConfigurationList = 044B66B917EC81C100569C61 /* Build configuration list for PBXProject "ColourLight" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 044B66B517EC81C100569C61;
+			productRefGroup = 044B66BF17EC81C100569C61 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				044B66BD17EC81C100569C61 /* ColourLight */,
+				044B66DE17EC81C100569C61 /* ColourLightTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		044B66BC17EC81C100569C61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044B66DA17EC81C100569C61 /* Images.xcassets in Resources */,
+				044B66CC17EC81C100569C61 /* InfoPlist.strings in Resources */,
+				044B66D517EC81C100569C61 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044B66DD17EC81C100569C61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044B66EB17EC81C100569C61 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		044B66BA17EC81C100569C61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044B66CE17EC81C100569C61 /* main.m in Sources */,
+				044B66D217EC81C100569C61 /* XAppDelegate.m in Sources */,
+				044B66D817EC81C100569C61 /* XViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044B66DB17EC81C100569C61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044B66ED17EC81C100569C61 /* ColourLightTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		044B66E517EC81C100569C61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 044B66BD17EC81C100569C61 /* ColourLight */;
+			targetProxy = 044B66E417EC81C100569C61 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		044B66CA17EC81C100569C61 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				044B66CB17EC81C100569C61 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		044B66D317EC81C100569C61 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				044B66D417EC81C100569C61 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		044B66E917EC81C100569C61 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				044B66EA17EC81C100569C61 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		044B66EE17EC81C100569C61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		044B66EF17EC81C100569C61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		044B66F117EC81C100569C61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ColourLight/ColourLight-Prefix.pch";
+				INFOPLIST_FILE = "ColourLight/ColourLight-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		044B66F217EC81C100569C61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ColourLight/ColourLight-Prefix.pch";
+				INFOPLIST_FILE = "ColourLight/ColourLight-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		044B66F417EC81C100569C61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ColourLight.app/ColourLight";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ColourLight/ColourLight-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ColourLightTests/ColourLightTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		044B66F517EC81C100569C61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ColourLight.app/ColourLight";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ColourLight/ColourLight-Prefix.pch";
+				INFOPLIST_FILE = "ColourLightTests/ColourLightTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		044B66B917EC81C100569C61 /* Build configuration list for PBXProject "ColourLight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				044B66EE17EC81C100569C61 /* Debug */,
+				044B66EF17EC81C100569C61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		044B66F017EC81C100569C61 /* Build configuration list for PBXNativeTarget "ColourLight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				044B66F117EC81C100569C61 /* Debug */,
+				044B66F217EC81C100569C61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		044B66F317EC81C100569C61 /* Build configuration list for PBXNativeTarget "ColourLightTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				044B66F417EC81C100569C61 /* Debug */,
+				044B66F517EC81C100569C61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 044B66B617EC81C100569C61 /* Project object */;
+}
