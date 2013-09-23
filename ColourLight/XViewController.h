@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Palette.h"
 
 @interface XViewController : UIViewController
-
+{
+    Palette *palette;
+}
 @end

@@ -18,12 +18,21 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    //self.view.backgroundColor = [UIColor grayColor];
+    palette = [[Palette alloc]initWithFrame:CGRectMake(40, 220, 240, 240)];
+    
+    
+    
+    [self.view addSubview:palette];
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+    
+    
+
 }
 
 @end
